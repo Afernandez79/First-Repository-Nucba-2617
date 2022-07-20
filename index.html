@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Quien es Ariel F?</title>
+    </head>
+
+    <body>
+
+        <div>
+         <h1>Ariel Fernández</h1>
+         <h2>Fanático mal de las motos!!!</h2>
+         <h3>Ya tuve mas de 20 motos y no me canso!</h3>
+         <p>Lorem ipsum dolor sit amet. Otro Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa corrupti non impedit
+            eum, perferendis optio nisi libero tempore obcaecati! Doloremque esse eaque molestias magnam vitae ducimus doloribus
+            nisi voluptates a.</p>
+
+         <!--Elementos anidados; es un elemanto dentro de otro elemento por ej una foto que nos lleva a una web -->
+
+         <a href="https://motos.honda.com.ar/"><img src="https://manualesmotos.files.wordpress.com/2017/12/honda-twister-250.jpg"
+                alt=""></a>
+
+         <br>        
+
+         <a href="https://es.wikipedia.org/wiki/Motero" target="_blank">Hace click acá para saber que es un motero</a>
+         
+         <br>
+         <a href="fotos.html">Ir a la página de fotos de motos</a>
+         <br>
+
+
+         <!--ESTO ES UN LINK A OTRA PAGINA-->
+         <a href="motos_2.html">Ir a la pag de Motos 2</a> 
+
+         <p>Que motos tuve?</p>
+         <ol>
+             <li>Honda Xr 80</li>
+             <li>Honda Dax</li>
+             <li>Honda NightHawk 250</li>
+             <li>Kawasaki KLX 650</li>            
+             <li>Honda cr 80</li>
+             <li>Yamaha Jog</li>
+             <li>Suzuki Dr 800</li>
+             <li>Suzuki Bandit</li>
+             <li>Honda cg 125 (2)</li>
+             <li>Honda Biz</li>
+             <li>Bajaj Rouser</li>
+             <li>Yamaha MT 03</li>
+             <li>KTM Duke 200</li>
+             <li>Gilera Smash 110</li>
+             <li>Y varias más que no recuerdo ahora</li>
+         </ol>
+
+         <h4>Foto de mi anterior moto(via URL)</h4>
+
+         <img src="https://manualesmotos.files.wordpress.com/2017/12/honda-twister-250.jpg" alt="Honda cb 250f">
+
+         <h4>Foto de mi ultima moto(imagen local)</h4>
+
+         <img src="./MT 03.jpg" alt="Foto de mi Yamaha MT03 (imágen Local)"/> <br>
+
+         <table>
+             <tr>
+                 <th>Lunes</th>
+                 <th>Martes</th>
+                 <th>Miercoles</th>
+                 <th>Jueves</th>
+                 <th>Viernes</th>
+                 <th>Sabado</th>
+                 <th>Domingo</th>
+             </tr>
+             <tr>
+                 <td>Gym</td>
+                 <td>Trabajar</td>
+                 <td>Gym</td>
+                 <td>Trabajar</td>
+                 <td>Gym</td>
+                 <td>Descanso</td>
+                 <td>Fiaca</td>
+             </tr>
+         </table>
+
+
+         <form>
+
+            <!--Los ID NO pueden repetirse-->
+            <div>
+             <label for="nombre">Nombre</label>
+             <input type="text" id="nombre" placeholder="Ingresa tu nombre"/>
+            </div>
+            <div> 
+             <label for="apellido">Apellido</label>
+             <input type="text" id="apellido" placeholder="Ingresa tu apellido"/>
+            </div>
+            <div>
+             <label for="password">Password </label>
+             <input type="password" id="password"placeholder="Ingresa tu password"/>
+            </div>
+            <div>
+             <label for="Dni">Ingresa tu Dni</label>
+             <input type="number" id="Dni" placeholder="Ingresa tu Dni"/>
+            </div>
+            <div>
+             <label for="Telefono">Telefono</label>
+             <input type="tel" id="Telefono" placeholder="Ingresa tu tel"/>
+            </div>
+            <div>
+             <label for="correo">Correo electronico</label>
+             <input type="email" id="correo" required placeholder="Ingresa tu email"/>
+            </div>
+
+            <div>
+                <input type="checkbox" id="terminos"/>
+                <label for="terminos" >Acepta terminos y condiciones?</label>
+            </div>
+            <div>
+                <h3>A que se dedica?</h3>
+                <label for="Empleado">Empleado</label>
+                <input type="radio" name="profesion" id="Empleado">
+                <label for="Estudiante">Estudiante</label>
+                <input type="radio" name="profesion" id="Estudiante">
+                <label for="Independiente">Independiente</label>
+                <input type="radio" name="profesion" id="independiente">
+                <label for="Jubilado">Jubilado</label>
+                <input type="radio" name="profesion" id="jubilado">
+            </div>
+            
+            <div>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            
+            <div>
+                <!--Enviar un formulario usando input-->
+                <input type="submit" value="Enviar formulario">
+                <!--enviar un formulario usando un button-->
+                <button type="submit">Enviar</button>
+            </div>
+         </form>
+
+        </div>      
+        
+
+
+    </body>
+</html>
